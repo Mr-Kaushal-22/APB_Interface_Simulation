@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="APB_Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="APB_Testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="150.001 ns"></ZoomEndTime>
+      <Cursor1Time time="131.149 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="167"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/APB_Testbench/apb_write_paddr" type="array">
+      <obj_property name="ElementShortName">apb_write_paddr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_write_paddr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/apb_read_paddr" type="array">
+      <obj_property name="ElementShortName">apb_read_paddr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_read_paddr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/apb_write_data" type="array">
+      <obj_property name="ElementShortName">apb_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/presetn" type="logic">
+      <obj_property name="ElementShortName">presetn</obj_property>
+      <obj_property name="ObjectShortName">presetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/transfer" type="logic">
+      <obj_property name="ElementShortName">transfer</obj_property>
+      <obj_property name="ObjectShortName">transfer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/apb_read_data_out" type="array">
+      <obj_property name="ElementShortName">apb_read_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_read_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/pslverr" type="logic">
+      <obj_property name="ElementShortName">pslverr</obj_property>
+      <obj_property name="ObjectShortName">pslverr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/apb_write_paddr" type="array">
+      <obj_property name="ElementShortName">apb_write_paddr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_write_paddr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/apb_read_paddr" type="array">
+      <obj_property name="ElementShortName">apb_read_paddr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_read_paddr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/apb_write_data" type="array">
+      <obj_property name="ElementShortName">apb_write_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_write_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/prdata" type="array">
+      <obj_property name="ElementShortName">prdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">prdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/presetn" type="logic">
+      <obj_property name="ElementShortName">presetn</obj_property>
+      <obj_property name="ObjectShortName">presetn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/pclk" type="logic">
+      <obj_property name="ElementShortName">pclk</obj_property>
+      <obj_property name="ObjectShortName">pclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/read" type="logic">
+      <obj_property name="ElementShortName">read</obj_property>
+      <obj_property name="ObjectShortName">read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/write" type="logic">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/transfer" type="logic">
+      <obj_property name="ElementShortName">transfer</obj_property>
+      <obj_property name="ObjectShortName">transfer</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/pready" type="logic">
+      <obj_property name="ElementShortName">pready</obj_property>
+      <obj_property name="ObjectShortName">pready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/psel0" type="logic">
+      <obj_property name="ElementShortName">psel0</obj_property>
+      <obj_property name="ObjectShortName">psel0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/psel1" type="logic">
+      <obj_property name="ElementShortName">psel1</obj_property>
+      <obj_property name="ObjectShortName">psel1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/penable" type="logic">
+      <obj_property name="ElementShortName">penable</obj_property>
+      <obj_property name="ObjectShortName">penable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/paddr" type="array">
+      <obj_property name="ElementShortName">paddr[8:0]</obj_property>
+      <obj_property name="ObjectShortName">paddr[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/pwrite" type="logic">
+      <obj_property name="ElementShortName">pwrite</obj_property>
+      <obj_property name="ObjectShortName">pwrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/pwdata" type="array">
+      <obj_property name="ElementShortName">pwdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">pwdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/apb_read_data_out" type="array">
+      <obj_property name="ElementShortName">apb_read_data_out[7:0]</obj_property>
+      <obj_property name="ObjectShortName">apb_read_data_out[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/pslverr" type="logic">
+      <obj_property name="ElementShortName">pslverr</obj_property>
+      <obj_property name="ObjectShortName">pslverr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/present_state" type="array">
+      <obj_property name="ElementShortName">present_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">present_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/next_state" type="array">
+      <obj_property name="ElementShortName">next_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/invalid_setup_error" type="logic">
+      <obj_property name="ElementShortName">invalid_setup_error</obj_property>
+      <obj_property name="ObjectShortName">invalid_setup_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/setup_error" type="logic">
+      <obj_property name="ElementShortName">setup_error</obj_property>
+      <obj_property name="ObjectShortName">setup_error</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/invalid_read_paddr" type="logic">
+      <obj_property name="ElementShortName">invalid_read_paddr</obj_property>
+      <obj_property name="ObjectShortName">invalid_read_paddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/invalid_write_paddr" type="logic">
+      <obj_property name="ElementShortName">invalid_write_paddr</obj_property>
+      <obj_property name="ObjectShortName">invalid_write_paddr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/APB_Testbench/top_1/master/invalid_write_data" type="logic">
+      <obj_property name="ElementShortName">invalid_write_data</obj_property>
+      <obj_property name="ObjectShortName">invalid_write_data</obj_property>
+   </wvobject>
+</wave_config>
