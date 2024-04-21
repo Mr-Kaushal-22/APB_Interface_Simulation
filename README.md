@@ -89,3 +89,19 @@ This is a simulation project based on APB Protocol, simulated on Xilinx Vivado u
 | --------- | --------- | ----------- |
 | mem[63:0] | reg [7:0] |             |
 
+## Constants
+
+| Name  | Type | Value | Description |
+| ----- | ---- | ----- | ----------- |
+| IDLE  |      | 2'b00 |             |
+| WRITE |      | 2'b01 |             |
+| READ  |      | 2'b10 |             |
+
+## Processes
+- unnamed: ( @(posedge pclk or negedge preset_n) )
+  - **Type:** always
+
+## State machines
+
+![Diagram_state_machine_0]( Documents/fsm_APB_Slave_00.svg "Diagram")
+
